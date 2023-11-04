@@ -1,13 +1,20 @@
-.mi-icono-personalizado {
+.CartImg {
     font-size: 24px;
     margin-right: 20px;
     margin-left: 20px;
+    color: rgb(182, 182, 182);
+}
+.CartImg:hover {
+    font-size: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
 }
 .NavBarColor {
     background-color: rgb(20, 20, 20);
 }
 
-.Option {
+nav .Option {
     color: rgb(182, 182, 182);
     text-decoration: none;
     padding-left: 30px;
@@ -16,7 +23,6 @@
 .Option:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding-left: 30px;
     font-weight: 600;
 }
 .ActiveOption {
@@ -25,4 +31,7 @@
     padding-left: 30px;
     font-weight: 700;
     letter-spacing: 3px;
+}
+a.ActiveOption {
+    padding-left: 30px;
 }

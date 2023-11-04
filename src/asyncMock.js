@@ -3,7 +3,7 @@
 const products = [
   {
       id: '1',
-      name: 'Call of Duty MW2',
+      title: 'Call of Duty MW2',
       price: 10000,
       category: 'shooter',
       img: 'https://blog.latam.playstation.com/tachyon/sites/3/2022/06/763672f00bdbec568bc58cd106f721cb040be956.jpg?resize=1088%2C612&crop_strategy=smart',
@@ -13,27 +13,27 @@ const products = [
   },
   {
       id: '2',
-      name: 'Counter Strike Global Ofensive 2',
-      price: 0,
+      title: 'Counter Strike Global Ofensive 2',
+      price: 5000,
       category: 'shooter',
       img: 'https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1696359298',
-      stock: 'Ilimitado',
+      stock: 23,
       description: 'Counter-Strike: Global Offensive fue un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike. Fue lanzado al mercado en agosto de 2012 para las plataformas de Microsoft Windows, macOS y Xbox 360 y PlayStation 3.'
     
   },
   {
     id: '3',
-    name: 'Valorant',
+    title: 'Valorant',
     price: 0,
     category: 'shooter',
     img: 'https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S1_2560x1440-b88adde6a57e40aa85818820aa87a6cd',
-    stock: 'Ilimitado',
+    stock: '12',
     description: 'Valorant es un hero shooter en primera persona multijugador gratuito desarrollado y publicado por Riot Games. El juego se anunció por primera vez con el nombre en clave Project A en octubre de 2019. Fue lanzado para Microsoft Windows el 2 de junio de 2020 después de su beta cerrada lanzada el 7 de abril de 2020.'
     
   },
   {
     id: '4',
-    name: 'Bordelands 3',
+    title: 'Bordelands 3',
     price: 13000,
     category: 'shooter',
     img: 'https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/p50N4PBK9rNanGYKFecTvac5.png',
@@ -43,17 +43,17 @@ const products = [
   },
   {
     id: '5',
-    name: 'Battlefield 2042',
+    title: 'Battlefield 2042',
     price: 16000,
     category: 'shooter',
     img: 'https://image.api.playstation.com/vulcan/ap/rnd/202106/0117/I558OkMNBieAq24dzWwjjE4K.png',
     stock: 30,
-    description: 'Battlefield 2042 es un videojuego de disparos y acción bélica en primera persona, desarrollado por EA Digital Illusion CE, Criterion Games, Ripple Effect y distribuido por Electronic Arts.​'
+    description: 'Battlefield 2042 es un videojuego de disparos y acción bélica en primera persona, desarrollado por EA Digital Illusion CE, Criterion Games, Ripple Effect y distribuido por Electronic Arts.'
     
   },
   {
       id: '6',
-      name: 'NBA 2k24',
+      title: 'NBA 2k24',
       price: 20000,
       category: 'sports',
       img: 'https://img.asmedia.epimg.net/resizer/MwQiqBWGH2vNAWjk1Z8AScdLwgs=/1472x828/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/5C7AX24SGRERBA6KWUYCCAZOAI.jpg' ,
@@ -62,7 +62,7 @@ const products = [
   },
   {
       id: '7',
-      name: 'FC 24',
+      title: 'FC 24',
       price: 12000,
       category: 'sports',
       img: 'https://elduendemall.com/blog/wp-content/uploads/2023/08/Blog-duende-2.png' ,
@@ -71,7 +71,7 @@ const products = [
   },
   {
       id: '8',
-      name: 'MLB The Show 23',
+      title: 'MLB The Show 23',
       price: 22000,
       category: 'sports',
       img: 'https://image.api.playstation.com/vulcan/ap/rnd/202301/2100/dGL72jgmD2ObMCtBgJtWvznC.jpg' ,
@@ -80,7 +80,7 @@ const products = [
   },
   {
       id: '9',
-      name: 'Resident Evil 4 Remake',
+      title: 'Resident Evil 4 Remake',
       price: 13000,
       category: 'Rompecabezas, Terror',
       img: 'https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png',

@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
 import '../NavBar/NavBar.css'
 import { FaShoppingCart } from "react-icons/fa";
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom';
 
 const CartWidget = () => {
+  const { totalQuantity } = useContext(CartContext);
+
+  const visibilityClass = totalQuantity > 0 ? '' : 'hidden';
+
   return (
-    <div>
-      <FaShoppingCart className="mi-icono-personalizado"/>
-      0
-    </div>
+      <Link to='/cart' className={`cart-widget ${visibilityClass}`}>
+          <FaShoppingCart className='CartImg' alt="cart-widget" />
+          <p>{totalQuantity}</p>
+      </Link>
   )
 }
 
-export default CartWidget
+export default CartWidget;

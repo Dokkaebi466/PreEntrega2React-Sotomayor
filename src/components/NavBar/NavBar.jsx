@@ -14,7 +14,7 @@ function NavBar() {
     <Navbar expand="lg" className="NavBarColor" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href='/'>
-            <CartWidget/> 
+          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
